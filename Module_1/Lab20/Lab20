@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-03T15:23:16.711Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="E3TDQxvo9VrgpslwW6oh" version="16.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-03T15:25:32.930Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="KvLdpwk23WBBsBjPS9mG" version="16.6.5" type="github">
   <diagram id="AoSi7Okru6G95YcuZOAl" name="Page-1">
     <mxGraphModel dx="1102" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,6 +14,18 @@
           <mxGeometry x="40" y="260" width="200" height="160" as="geometry" />
         </mxCell>
         <mxCell id="1LDH7WzqmPnjeuObo7Ce-36" value="&lt;span style=&quot;font-weight: 700&quot;&gt;- PK: C&lt;/span&gt;&lt;b&gt;ustomer ID&lt;/b&gt; &lt;br&gt;- Name&lt;br&gt;- Phone number&lt;br&gt;- Email&lt;br&gt;- Address&lt;br&gt;- City&lt;br&gt;- State/province&lt;br&gt;- Country&lt;br&gt;- Zip/postal code" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1LDH7WzqmPnjeuObo7Ce-35">
+          <mxGeometry y="30" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1LDH7WzqmPnjeuObo7Ce-37" value="Salespersons " style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="490" y="30" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="1LDH7WzqmPnjeuObo7Ce-38" value="&lt;b&gt;- PK: Staff ID&lt;/b&gt; &lt;br&gt;- Name&lt;br&gt;- Store&lt;br&gt;&amp;nbsp;&lt;span style=&quot;font-weight: 700&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1LDH7WzqmPnjeuObo7Ce-37">
+          <mxGeometry y="30" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1LDH7WzqmPnjeuObo7Ce-39" value="Invoices " style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="490" y="260" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="1LDH7WzqmPnjeuObo7Ce-40" value="&lt;span style=&quot;font-weight: 700&quot;&gt;- PK:&amp;nbsp;&lt;/span&gt;&lt;b&gt;invoice number&lt;br&gt;- D&lt;/b&gt;ate&lt;br&gt;- Car&lt;br&gt;- Customer&lt;br&gt;- Salesperson&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1LDH7WzqmPnjeuObo7Ce-39">
           <mxGeometry y="30" width="200" height="120" as="geometry" />
         </mxCell>
       </root>
