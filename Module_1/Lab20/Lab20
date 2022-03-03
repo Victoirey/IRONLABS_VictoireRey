@@ -1,31 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2022-03-03T15:31:20.518Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="nOjPR3ugwzN62w1br3f8" version="16.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-03T15:39:03.224Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="_A0ByChOiOjkRVXDJyUm" version="16.6.5" type="github">
   <diagram id="AoSi7Okru6G95YcuZOAl" name="Page-1">
-    <mxGraphModel dx="1102" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1002" dy="506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="1LDH7WzqmPnjeuObo7Ce-32" value="Cars" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="40" y="30" width="200" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="1LDH7WzqmPnjeuObo7Ce-34" value="&lt;span style=&quot;font-weight: 700&quot;&gt;- PK: Vehicle identification number (VIN)&lt;br&gt;&lt;/span&gt;&lt;span&gt;- Manufacturer&lt;/span&gt;&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;&lt;span&gt;- Model&lt;/span&gt;&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;&lt;span&gt;- Year&lt;/span&gt;&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;&lt;span&gt;- Color&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1LDH7WzqmPnjeuObo7Ce-32">
+        <mxCell id="1LDH7WzqmPnjeuObo7Ce-34" value="&lt;span style=&quot;font-weight: 700&quot;&gt;- PK: Vehicle identification number (VIN) &lt;/span&gt;&amp;gt;&lt;span style=&quot;font-weight: 700&quot;&gt;&amp;nbsp;&lt;/span&gt;char(17)&lt;br&gt;- Manufacturer &amp;gt; varchar(30)&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;- Model &amp;gt; varchar(30)&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;- Year &amp;gt; int&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;- Color &amp;gt; varchar(30)&lt;span style=&quot;font-weight: 700&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1LDH7WzqmPnjeuObo7Ce-32">
           <mxGeometry y="30" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="1LDH7WzqmPnjeuObo7Ce-35" value="Customers" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="40" y="260" width="200" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="1LDH7WzqmPnjeuObo7Ce-36" value="&lt;span style=&quot;font-weight: 700&quot;&gt;- PK: C&lt;/span&gt;&lt;b&gt;ustomer ID&lt;/b&gt; &lt;br&gt;- Name&lt;br&gt;- Phone number&lt;br&gt;- Email&lt;br&gt;- Address&lt;br&gt;- City&lt;br&gt;- State/province&lt;br&gt;- Country&lt;br&gt;- Zip/postal code" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1LDH7WzqmPnjeuObo7Ce-35">
+        <mxCell id="1LDH7WzqmPnjeuObo7Ce-36" value="&lt;span style=&quot;font-weight: 700&quot;&gt;- PK: C&lt;/span&gt;&lt;b&gt;ustomer ID &lt;/b&gt;&amp;gt; int&lt;br&gt;- Name &amp;gt; varchar(30)&lt;br&gt;- Phone number&lt;br&gt;- Email &amp;gt; varchar(30)&lt;br&gt;- Address &amp;gt; varchar(50)&lt;br&gt;- City &amp;gt; varchar(30)&lt;br&gt;- State/province &amp;gt; varchar(30)&lt;br&gt;- Country &amp;gt; varchar(30)&lt;br&gt;- Zip/postal code &amp;gt; int" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1LDH7WzqmPnjeuObo7Ce-35">
           <mxGeometry y="30" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="1LDH7WzqmPnjeuObo7Ce-37" value="Salespersons " style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="490" y="30" width="200" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="1LDH7WzqmPnjeuObo7Ce-38" value="&lt;b&gt;- PK: Staff ID&lt;/b&gt; &lt;br&gt;- Name&lt;br&gt;- Store&lt;br&gt;&amp;nbsp;&lt;span style=&quot;font-weight: 700&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1LDH7WzqmPnjeuObo7Ce-37">
+        <mxCell id="1LDH7WzqmPnjeuObo7Ce-38" value="&lt;b&gt;- PK: Staff ID &lt;/b&gt;&amp;gt; integer&lt;br&gt;- Name &amp;gt; varchar(30)&lt;br&gt;- Store &amp;gt; varchar(30)&lt;br&gt;&amp;nbsp;&lt;span style=&quot;font-weight: 700&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1LDH7WzqmPnjeuObo7Ce-37">
           <mxGeometry y="30" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="1LDH7WzqmPnjeuObo7Ce-39" value="Invoices " style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="490" y="260" width="200" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="1LDH7WzqmPnjeuObo7Ce-40" value="&lt;span style=&quot;font-weight: 700&quot;&gt;- PK:&amp;nbsp;&lt;/span&gt;&lt;b&gt;invoice number&lt;br&gt;- &lt;/b&gt;Date&lt;br&gt;- Car&lt;br&gt;- Customer&lt;br&gt;- Salesperson&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1LDH7WzqmPnjeuObo7Ce-39">
+        <mxCell id="1LDH7WzqmPnjeuObo7Ce-40" value="&lt;span style=&quot;font-weight: 700&quot;&gt;- PK:&amp;nbsp;&lt;/span&gt;&lt;b&gt;invoice number &lt;/b&gt;&amp;gt; varchar(15)&lt;br&gt;&lt;b&gt;- &lt;/b&gt;Date &amp;gt; date&lt;br&gt;- Car &amp;gt; char(17)&lt;br&gt;- Customer &amp;gt; int&lt;br&gt;- Salesperson &amp;gt; varchar(30)&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1LDH7WzqmPnjeuObo7Ce-39">
           <mxGeometry y="30" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="1LDH7WzqmPnjeuObo7Ce-41" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="1LDH7WzqmPnjeuObo7Ce-36">
