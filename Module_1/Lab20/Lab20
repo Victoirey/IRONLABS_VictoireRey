@@ -1,1 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2022-03-03T15:13:33.538Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" version="16.6.5" etag="H0Tm03ACp-YFYrcZ3VuF" type="github"><diagram id="AoSi7Okru6G95YcuZOAl">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-03T15:23:16.711Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="E3TDQxvo9VrgpslwW6oh" version="16.6.5" type="github">
+  <diagram id="AoSi7Okru6G95YcuZOAl" name="Page-1">
+    <mxGraphModel dx="1102" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1LDH7WzqmPnjeuObo7Ce-32" value="Cars" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="1LDH7WzqmPnjeuObo7Ce-34" value="&lt;span style=&quot;font-weight: 700&quot;&gt;- PK: Vehicle identification number (VIN)&lt;br&gt;&lt;/span&gt;&lt;span&gt;- Manufacturer&lt;/span&gt;&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;&lt;span&gt;- Model&lt;/span&gt;&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;&lt;span&gt;- Year&lt;/span&gt;&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;&lt;span&gt;- Color&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1LDH7WzqmPnjeuObo7Ce-32">
+          <mxGeometry y="30" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1LDH7WzqmPnjeuObo7Ce-35" value="Customers" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="40" y="260" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="1LDH7WzqmPnjeuObo7Ce-36" value="&lt;span style=&quot;font-weight: 700&quot;&gt;- PK: C&lt;/span&gt;&lt;b&gt;ustomer ID&lt;/b&gt; &lt;br&gt;- Name&lt;br&gt;- Phone number&lt;br&gt;- Email&lt;br&gt;- Address&lt;br&gt;- City&lt;br&gt;- State/province&lt;br&gt;- Country&lt;br&gt;- Zip/postal code" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1LDH7WzqmPnjeuObo7Ce-35">
+          <mxGeometry y="30" width="200" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
