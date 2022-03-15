@@ -74,20 +74,20 @@ Describe the following events:
 
 ### Challenge 3
 Two players roll a dice. Describe the measurable space and the random variable for:
-* A. The score of player A.
-* B. The greatest score.
+* A. The score of player A. -> 1 to 6
+* B. The greatest score. -> 6
 * C. The earnings of player A if the game rules state that:  
-"The player with the greatest score gets a coin from the other player.".
+"The player with the greatest score gets a coin from the other player.". -> 1 coin
 * D. The earnings of player A if the game rules state that:  
-"The player with the greatest score gets as many coins as the difference between the score of player A and player B.". 
+"The player with the greatest score gets as many coins as the difference between the score of player A and player B.". -> max 5 coins
 
 Describe the following events:
-* Case A: The score of player A is 2.
-* Case B: The greatest score is lower or equal than 2.
+* Case A: The score of player A is 2. -> he can either win or loose
+* Case B: The greatest score is lower or equal than 2. -> the lower score is one
 * Case C: Considering the case where the winner gets as many coins as the difference between scores (D), describe: 
-  * Player A wins at least 4 coins.
-  * Player A loses more than 2 coins.
-  * Player A neither wins nor loses coins.
+  * Player A wins at least 4 coins. -> Player A is 6 or 5, Player B is 2 or 1 (respectively)
+  * Player A loses more than 2 coins. -> (Player A, Player B): (1,4), (1,5), (1,6), (2,5), (2,6), (3,6)
+  * Player A neither wins nor loses coins. Player A and B have the same result
 
 ## Bonus challenges
 ### Bonus Challenge 1
@@ -98,10 +98,15 @@ Three players take balls from a box. Inside that box there are red, blue, green 
 * If the ball is red, they can’t take another ball.
 * If the ball is black, they lose one point and they can’t take another ball.
 
+Balls description: 
+- Blue = B
+- Green = G
+- Red= R
+- Black = Bk
 Describe the measurable space and the random variable for:
-* A. Player A wins. Do not consider ties as a win.
-* B. Player A and B get the same points.
-* C. All players get 0 points.
+* A. Player A wins. Do not consider ties as a win. Combinations could be : (i) B+G+R, (ii) G+B+R, (iii) G+R
+* B. Player A and B get the same points. Combination should be R for one player, G+Bk for the other player
+* C. All players get 0 points. One player picks R, one B and one G+Bk
 
 ### Bonus Challenge 2
 Consider the situation of bonus challenge 1 but now with four players. Does anything change in your solutions? What are the changes in each case?
@@ -142,3 +147,9 @@ Describe the measurable space and the random variable for:
 
 
 Please find MEAN, SUM, STANDARD DEVIATION, VARIANCE, MIN and MAX.
+Mean=79,93
+Sum=1199
+Std=15,21027222
+Var=231,352381
+min=56
+max=98
