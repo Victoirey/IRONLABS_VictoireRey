@@ -44,6 +44,7 @@ The data are shown below.
 Time (hours) 0–19 20–39 40–59 60–79 80–99 100–119 120–139 140–159 160–179
 Frequency     16    13    17    4     4      3       1      1       1
 Determine the median, mean and standard deviation for this dataset.
+
 Median class is [40-59]
 Median=41.11
 Mean=46.5
@@ -103,6 +104,7 @@ Balls description:
 - Green = G
 - Red= R
 - Black = Bk
+
 Describe the measurable space and the random variable for:
 * A. Player A wins. Do not consider ties as a win. Combinations could be : (i) B+G+R, (ii) G+B+R, (iii) G+R
 * B. Player A and B get the same points. Combination should be R for one player, G+Bk for the other player
@@ -147,6 +149,7 @@ Describe the measurable space and the random variable for:
 
 
 Please find MEAN, SUM, STANDARD DEVIATION, VARIANCE, MIN and MAX.
+
 Mean=79,93
 Sum=1199
 Std=15,21027222
