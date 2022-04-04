@@ -1,1 +1,4 @@
-
+Google’s self-driving cars
+Driverless cars used 3 major sensors : cameras, radar, and lidar. Together, they give the car a clear view of its environment, helping the car to identify the location, speed, and 3D shapes of objects that are close to it.
+The predominant algorithm used in self-driving cars is deep learning. Deep learning replicates vision by taking constantly millions of images, classifying and learning their different properties. These algorithms are then able to recognize new input values based on unique classifying features of the image. These camera sensors first detect where that object is on the road, then use deep learning to discover what that object is. Other sensors are used to measure distance and velocity of objects around the car. Results from each sensor are then combined to develop an understanding of a vehicle’s environment.
+Driverless cars would help us avoiding accident due to human error, making the streets much safer. However, legal issues are raised regarding the person responsible in case of accident - which are not solved for now.
