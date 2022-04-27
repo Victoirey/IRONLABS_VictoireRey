@@ -1,0 +1,23 @@
+Beg_year,gender,Nbstarts,Nbends,Var,dept_name
+1990,M,8,0,8,Production
+1990,F,2,0,2,"Human Resources"
+1991,M,12,0,12,Marketing
+1991,F,5,0,5,Finance
+1992,M,9,1,8,"Human Resources"
+1992,F,8,0,8,Marketing
+1993,M,10,1,9,Marketing
+1993,F,11,0,11,Marketing
+1994,M,13,2,11,Marketing
+1994,F,6,0,6,"Human Resources"
+1995,M,11,2,9,Marketing
+1995,F,9,0,9,Marketing
+1996,M,7,5,2,Finance
+1996,F,3,3,0,Marketing
+1997,M,8,2,6,Marketing
+1997,F,3,5,-2,Development
+1998,M,4,15,-11,Finance
+1998,F,2,7,-5,Marketing
+1999,M,4,12,-8,Marketing
+1999,F,4,13,-9,Development
+2000,M,2,18,-16,Finance
+2000,F,3,8,-5,"Human Resources"
